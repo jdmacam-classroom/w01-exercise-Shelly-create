@@ -5,7 +5,7 @@
 `Section`: BSIT 302- A
 
 ## About
-Put here the description and general instructions of the exercise.
+This project is my first exercise for the course, where I created a personal student profile using basic HTML. It includes my academic information, professional links, and a contact form.
 
 ## Files Structure
 ```
