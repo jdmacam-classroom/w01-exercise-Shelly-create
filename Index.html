@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- basic setup so text shows properly -->
+    <meta charset="utf-8">
+
+    <!-- this is the title that shows in the browser tab -->
+    <title>Shiela Mae Ancheta - Student Profile</title>
+
+    <style>
+        /* overall page style - clean and simple look */
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6; /* makes text easier to read */
+            color: #222;
+            max-width: 900px; /* keeps content centered and not too wide */
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* table design for academic info */
+        table {
+            width: 100%;
+            border-collapse: collapse; /* removes space between borders */
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 12px; /* space inside cells */
+            text-align: left;
+        }
+
+        /* simple line under header */
+        header {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- this is the top part with my name and course -->
+    <header>
+        <h1>Shiela Mae Ancheta</h1>
+        <h3>Bachelor of Science in Information Technology - STI College San Pablo</h3>
+    </header>
+
+    <main>
+
+        <!-- short intro about me -->
+        <p class="intro-paragraph">
+            Hi! I am Shiela Mae Ancheta, currently a <strong>third-year</strong> BSIT student. 
+            I have a real passion for creating simple, effective web designs and I'm very interested in how network technologies work behind the scenes. <br>
+            My main goal is to keep sharpening my skills in both design and networking so I can eventually build a career as a Web Developer or a Network Specialist.
+        </p>
+
+        <hr>
+
+        <!-- table showing my academic details -->
+        <h3>Academic Information</h3>
+        <table border="1">
+            <tr>
+                <!-- column titles -->
+                <th>Program</th>
+                <th>Year Level & Section</th>
+                <th>School Email</th>
+                <th>Primary Skill or Interest</th>
+            </tr>
+
+            <tr>
+                <!-- my main info -->
+                <td>BSIT</td>
+                <td>3rd Year - A</td>
+                <td style="text-align: center;">ancheta.374230@sanpablo.sti.edu.ph</td>
+                <td>HTML & Basic Networking</td>
+            </tr>
+
+            <tr>
+                <!-- extra skills -->
+                <td colspan="4" style="text-align: center;">
+                    <strong>Additional Skills:</strong> Canva & Microsoft Office
+                </td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <!-- links to my profiles and projects -->
+        <h3>Professional Links</h3>
+        <ul>
+            <li><a href="https://github.com/Shelly-create">GitHub Profile</a></li>
+            <li><a href="https://www.facebook.com/shllyi">Facebook Profile</a></li>
+            <li><a href="mailto:Shielamae.ancheta@gmail.com">Email</a></li>
+            <li><a href="https://github.com/Shelly-create/w04a-dynamic-web/blob/main/index.html">View My Projects</a></li>
+        </ul>
+
+        <hr>
+
+        <!-- simple contact form (not functional yet) -->
+        <h3>Contact Form</h3>
+        <form>
+            Name: <br>
+            <input type="text" name="name"> <br>
+
+            Email: <br>
+            <input type="email" name="email"> <br>
+
+            Message: <br>
+            <input type="text" name="message" placeholder="Write a message here..."> <br><br>
+
+            <!-- button to submit form -->
+            <input type="submit" value="Submit">
+        </form>
+
+        <hr>
+
+        <!-- my future plans for this portfolio -->
+        <h3>Future Portfolio Direction</h3>
+        <p>
+            This site is just the beginning of my professional portfolio. As I move further into my BSIT degree, I plan to expand this page by adding my custom HTML projects and sharing documentation from my networking labs. I also want to include a gallery for my Canva graphic designs and list my technical certifications as I complete them to show my progress in the IT field.
+        </p>
+
+    </main>
+
+</body>
+</html>
